@@ -20,7 +20,7 @@ header {
     --btn-text-dark-color: #23272a;
     --btn-lilla-color: #8ea1e1;
     --bg-grey-color: #f6f6f6;
-    --bg-dark-color: #23272a;
+    --footer-text-color: #7289da;
 }
 
 .container {
@@ -83,6 +83,12 @@ h5 {
     font-size: 1.2rem;
 }
 
+.footer-box > h5, h6 {
+    color: var(--footer-text-color);
+}
+
+
+
 /*navigation bar*/
 .logo {
     width: 20%;
@@ -97,7 +103,7 @@ h5 {
     align-items: center;
 }
 
-header a {
+a {
     text-decoration: none;
     color: white;
 }
@@ -178,20 +184,33 @@ header a {
 
 
 .bg-dark {
-    background-color: var(--bg-dark-color);
+    background-color: var(--btn-text-dark-color);
 }
 
 .footer-box {
     border: 2px dashed white;
-    background-color: #20b2aa;
-    padding: 12rem 4rem;
+    flex-grow: 1;
+    flex-direction: column;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+.flag {
+    width: 5%;
 }
 
 .ft-box-large {
-    background-color: #f08080;
     flex-grow: 1;
-    border-color: black;
+    border-color: white;
+    padding: 2rem 2rem;
 }
+
+.footer-list li {
+    list-style: none;
+}
+
+
+
 
 .section-footer {
     padding-top: 0.5rem;
