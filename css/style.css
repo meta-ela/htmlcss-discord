@@ -11,12 +11,15 @@ body {
 
 header {
     background-color: var(--header-color);
-    padding: 1rem 0;
+    padding-top: 1rem;
+    
 }
-
 
 :root {
     --header-color: #3161e0;
+    --btn-dark-color: #23272a;
+
+
     --bg-grey-color: #d3d3d3;
     --bg-dark-color: #23272a;
     --jumbotron-color: #00008b;
@@ -38,18 +41,30 @@ header {
 
 .button {
     border: 0;
-    border-radius: 20px;
-    
+    border-radius: 30px;
+    padding: 1rem 1.5rem;
+}
+
+.button.btn-dark {
+    color: white;
+    background-color: var(--btn-dark-color);
 }
 
 .btn-small-white {
-    padding: 0.5rem 0.5rem;
+    padding: 0.7rem 0.7rem;
     background-color: white;
 }
 
-.logo, .menu, .login {
-    padding: 0.5rem 0.5rem;
+
+p, h1 {
+    padding: 1rem;
+    line-height: 1.5rem;
 }
+
+h1 {
+    font-size: 2.5rem;
+}
+
 
 .logo {
     width: 20%;
@@ -77,32 +92,40 @@ header a {
     gap: 1rem;
 }
 
-
 .login {
     width: 20%;
     justify-content: flex-end;
     align-items: center;
 }
 
+
 .section {
     padding: var(--padding-base);
 }
 
-.jumbotron {
+
+.jumbotron-wallpaper {
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
 
-.jumbotron-box {
+.jumbotron-text {
+    padding: 7rem 9rem;
     justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+
 }
 
-.jumbotron-text {
-    border-style: dashed;
-    padding: 7rem 20rem;
+.jumbotron-button {
+    gap: 2rem;
 }
+
 
 .box {
     padding: 10rem 4rem;
