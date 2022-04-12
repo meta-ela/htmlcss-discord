@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;;
+    font-size: 16px;
+}
+
+header {
+    background-color: var(--header-color);
+    padding: 1rem;
+}
+
+
+:root {
+    --header-color: #add8e6;
+    --navbar-color: #daa520;
+    --bg-grey-color: #d3d3d3;
+    --bg-dark-color: #23272a;
+    --jumbotron-color: #00008b;
+    --bgcolor-img: #1e90ff;
+    --bgcoloro-text: #ffc0cb; 
+    --padding-base: 2rem;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.logo, .menu, .login {
+    border-style: dashed;
+    background-color: var(--navbar-color);
+    padding: 0.5rem 0.5rem;
+}
+
+.logo {
+    width: 20%;
+    align-items: center;
+}
+
+.menu {
+    flex-grow: 2;
+}
+
+.menu-list {
+    list-style: none;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.menu-list li {
+    padding: 0rem 0.5rem;
+}
+
+.login {
+    width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.section {
+    padding: var(--padding-base);
+}
+
+.bg-jumbotron {
+    background-color: var(--jumbotron-color);
+}
+
+.jumbotron-box {
+    justify-content: center;
+}
+
+.jumbotron-text {
+    border-style: dashed;
+    background-color: #ee82ee;
+    padding: 7rem 20rem;
+}
+
+.box {
+    padding: 10rem 4rem;
+}
+
+.img1-box {
+    border-style: dashed;
+    background-color: var(--bgcolor-img);
+    flex-grow: 2;
+}
+
+.text1-box {
+    border-style: dashed;
+    background-color: var(--bgcoloro-text);
+    flex-grow: 1;
+}
+
+.bg-grey {
+    background-color: var(--bg-grey-color);
+}
+
+.last-box {
+    background-color: #228b22;
+    border-style: dashed;
+    padding: 20rem;
+    flex-grow: 2;
+}
+
+.bg-dark {
+    background-color: var(--bg-dark-color);
+}
+
+.footer-box {
+    border: 2px dashed white;
+    background-color: #20b2aa;
+    padding: 12rem 4rem;
+}
+
+.ft-box-large {
+    background-color: #f08080;
+    flex-grow: 1;
+    border-color: black;
+}
+
+.section-footer {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+}
+
+.section-nav-footer {
+    padding-top: 2rem;
+    padding-bottom: 0;
+}
+
+.nav-footer {
+    background-color: #7fffd4;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+
+.logo-footer, .bottone-footer {
+    border-style: dashed;
+    background-color: #ffb6c1;
+    padding: 5px;
+    justify-content: space-between;
+}
