@@ -5,19 +5,18 @@
 }
 
 body {
-    font-family: 'Fredoka', sans-serif;;
+    font-family: 'Open Sans', sans-serif;
     font-size: 16px;
 }
 
 header {
     background-color: var(--header-color);
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 
 :root {
-    --header-color: #add8e6;
-    --navbar-color: #daa520;
+    --header-color: #3161e0;
     --bg-grey-color: #d3d3d3;
     --bg-dark-color: #23272a;
     --jumbotron-color: #00008b;
@@ -37,30 +36,47 @@ header {
     display: flex;
 }
 
+.button {
+    border: 0;
+    border-radius: 20px;
+    
+}
+
+.btn-small-white {
+    padding: 0.5rem 0.5rem;
+    background-color: white;
+}
+
 .logo, .menu, .login {
-    border-style: dashed;
-    background-color: var(--navbar-color);
     padding: 0.5rem 0.5rem;
 }
 
 .logo {
     width: 20%;
     align-items: center;
+    justify-content: flex-start;
+    align-items: flex-end;
 }
 
 .menu {
     flex-grow: 2;
+    justify-content: center;
+    align-items: center;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
 }
 
 .menu-list {
     list-style: none;
     flex-direction: row;
     justify-content: center;
+    padding: 0rem 0.5rem;
+    gap: 1rem;
 }
 
-.menu-list li {
-    padding: 0rem 0.5rem;
-}
 
 .login {
     width: 20%;
@@ -72,8 +88,11 @@ header {
     padding: var(--padding-base);
 }
 
-.bg-jumbotron {
-    background-color: var(--jumbotron-color);
+.jumbotron {
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .jumbotron-box {
@@ -82,7 +101,6 @@ header {
 
 .jumbotron-text {
     border-style: dashed;
-    background-color: #ee82ee;
     padding: 7rem 20rem;
 }
 
