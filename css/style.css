@@ -17,19 +17,15 @@ header {
 
 :root {
     --header-color: #3161e0;
-    --btn-dark-color: #23272a;
+    --btn-text-dark-color: #23272a;
     --btn-lilla-color: #8ea1e1;
-
-
-    --bg-grey-color: #d3d3d3;
+    --bg-grey-color: #f6f6f6;
     --bg-dark-color: #23272a;
-    --jumbotron-color: #00008b;
-    --padding-base: 2rem;
 }
 
 .container {
     width: 100%;
-    max-width: 960px;
+    max-width: 1000px;
     min-width: 300px;
     margin: 0 auto;
 }
@@ -39,7 +35,7 @@ header {
 }
 
 .section {
-    padding: var(--padding-base);
+    padding: 6rem 0rem;
 }
 
 /*buttons*/
@@ -51,7 +47,7 @@ header {
 
 .button.btn-dark {
     color: white;
-    background-color: var(--btn-dark-color);
+    background-color: var(--btn-text-dark-color);
 }
 
 .btn-small-white {
@@ -62,11 +58,13 @@ header {
 .btn-lilla {
     color: white;
     background-color: var(--btn-lilla-color);
+    padding: 0.7rem 1.5rem;
+    margin-top: 20px;
 }
 
 /*text and title*/
 p, h1 {
-    padding: 1.5rem;
+    padding: 1.5rem 0rem;
     line-height: 1.5rem;
     color: var(--bg-dark-color);
 }
@@ -75,6 +73,15 @@ h1 {
     font-size: 2.5rem;
 }
 
+h2 {
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: var(--bg-dark-color);
+}
+
+h5 {
+    font-size: 1.2rem;
+}
 
 /*navigation bar*/
 .logo {
@@ -119,7 +126,7 @@ header a {
 }
 
 .jumbotron-text {
-    padding: 7rem 9rem;
+    padding: 4rem 9rem;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
@@ -145,11 +152,14 @@ header a {
 }
 
 .img-box {
-    
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .text-box {
-    
+    text-align: left;
+    flex-direction: column;
 }
 
 .bg-grey {
@@ -157,7 +167,15 @@ header a {
 }
 
 .last-box {
+    text-align: center;
 }
+
+.star {
+
+}
+
+
+
 
 .bg-dark {
     background-color: var(--bg-dark-color);
