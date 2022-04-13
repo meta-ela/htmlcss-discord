@@ -186,6 +186,20 @@ a {
     text-align: center;
 }
 
+.download-section {
+    padding-top: 3rem;
+}
+
+.star {
+    align-items: center;
+    justify-content: center;
+}
+
+.star > img {
+    position: absolute;
+    padding-bottom: 1rem;
+}
+
 
 
 /*footer*/
