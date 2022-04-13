@@ -38,6 +38,8 @@ header {
     padding: 6rem 0rem;
 }
 
+
+
 /*buttons*/
 .button {
     border: 0;
@@ -70,11 +72,13 @@ header {
     margin-top: 20px;
 }
 
+
+
 /*text and title*/
 p, h1 {
     padding: 1.5rem 0rem;
     line-height: 1.5rem;
-    color: var(--bg-dark-color);
+    color: var(--bg-dark-color)
 }
 
 h1 {
@@ -88,7 +92,7 @@ h2 {
 }
 
 h5 {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 .footer-box > h5, h6 {
@@ -131,6 +135,7 @@ a {
 }
 
 
+
 /*main jumbotron section*/
 .jumbotron-wallpaper {
     background-image: url(../img/jumbo.png);
@@ -140,7 +145,7 @@ a {
 }
 
 .jumbotron-text {
-    padding: 4rem 9rem;
+    padding: 1rem 10rem;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
@@ -161,14 +166,11 @@ a {
 
 
 /*main sections*/
-.box {
-    ;
-}
-
 .img-box {
     width: 100%;
     justify-content: flex-start;
     align-items: flex-start;
+    padding-right: 4rem;
 }
 
 .text-box {
@@ -184,13 +186,9 @@ a {
     text-align: center;
 }
 
-.star {
-
-}
 
 
-
-
+/*footer*/
 .bg-dark {
     background-color: var(--btn-text-dark-color);
 }
@@ -204,22 +202,31 @@ a {
     border-bottom: 2px solid #4a5781;
 }
 
-.flag {
-    width: 5%;
-}
-
 .ft-box-large {
     flex-grow: 1;
-    padding: 2rem 2rem;
+    padding: 2rem 0rem;
+    line-height: 2rem;
 }
 
 .footer-list li {
     list-style: none;
 }
 
+.flag {
+    width: 5%;
+    vertical-align: middle;
+}
+
+.flag-text {
+    font-size: 0.7rem;
+}
+
+.social-icons {
+    padding-right: 1rem;
+}
 
 
-
+/*footer navigation bar*/
 .section-footer {
     padding-top: 0.5rem;
     padding-bottom: 1rem;
