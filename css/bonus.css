@@ -14,3 +14,12 @@
 .btn-lilla:hover, .btn-small-lilla:hover {
     background-color: #656c86;
 }
+
+
+.wave {
+    color: #f6f6f6;
+}
+
+.wave-reverse {
+    transform: rotate(180deg);
+}
