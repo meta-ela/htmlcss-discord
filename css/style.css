@@ -51,8 +51,16 @@ header {
 }
 
 .btn-small-white {
-    padding: 0.7rem 0.7rem;
     background-color: white;
+}
+
+.btn-small-lilla {
+    background-color: var(--btn-lilla-color);
+    color: white;
+}
+
+.btn-small-lilla, .btn-small-white {
+    padding: 0.7rem 1rem
 }
 
 .btn-lilla {
@@ -188,11 +196,12 @@ a {
 }
 
 .footer-box {
-    border: 2px dashed white;
     flex-grow: 1;
     flex-direction: column;
     color: white;
-    padding: 2rem 2rem;
+    padding: 2rem 1rem;
+    line-height: 1.5rem;
+    border-bottom: 2px solid #4a5781;
 }
 
 .flag {
@@ -201,7 +210,6 @@ a {
 
 .ft-box-large {
     flex-grow: 1;
-    border-color: white;
     padding: 2rem 2rem;
 }
 
@@ -214,24 +222,16 @@ a {
 
 .section-footer {
     padding-top: 0.5rem;
-    padding-bottom: 2rem;
-}
-
-.section-nav-footer {
-    padding-top: 2rem;
-    padding-bottom: 0;
+    padding-bottom: 1rem;
 }
 
 .nav-footer {
-    background-color: #7fffd4;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;
 }
 
 .logo-footer, .bottone-footer {
-    border-style: dashed;
-    background-color: #ffb6c1;
     padding: 5px;
     justify-content: space-between;
 }
