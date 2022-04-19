@@ -196,8 +196,9 @@ a {
 }
 
 .star > img {
-    position: absolute;
-    padding-bottom: 1rem;
+    position: relative;
+    bottom: 1rem;
+    top: 1.5rem;
 }
 
 
